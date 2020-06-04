@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Shadows+Into+Light&display=swap');
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-image: linear-gradient(to top left, #D3D3D3, #FFFFFA);
+}
+
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  line-height: 140%
+}
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 30px 2px #FFFFFA;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.card {
+  background-color: #717171;
+  font-family: "Shadows Into Light", Helvetica, sans-serif;
+  color: #FFFFFA;
+  font-size: 115%;
+  font-weight: 25px;
+  line-height: 120%;
+  text-align: center;
+  padding: 10px;
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px rgba(64,67,78);
+}
+
+.link {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.card-links ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.card-links li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  color: #E6B2BB;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+}
